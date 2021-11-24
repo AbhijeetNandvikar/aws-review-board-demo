@@ -26,7 +26,6 @@ const Home = ({ session }: HomeProps) => {
     </div>
   );
 };
-
 export const getServerSideProps = async (context: NextPageContext) => {
   return {
     props: {

@@ -12,10 +12,11 @@ export default NextAuth({
       }),
     // ...add more providers here
   ],
-  callbacks:{
-    async session(session,token){
-      session.token = token
-      return session
-    }
-  }
+  // callbacks:{
+  //   async session(session,token){
+  //     console.log("",token)
+  //     session.token = token
+  //     return session
+  //   }
+  // }
 })
